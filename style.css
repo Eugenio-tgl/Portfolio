@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body{   
+    background-color: rgb(0, 0, 0);
+       
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d9cb5;
+}
+
+.icono{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.buttonsBACK{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px;
+    justify-items: center;
+}
+
+button{
+    
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+
+    width: 120px;
+    padding: 8px;
+    border: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn1{
+    background: #e46f51;
+}
+
+.btn2{
+    background: #28acad;
+}
+
+.btn3{
+    background: #745295;
+}
+
+.btnB{
+    margin: 30px;
+    background: #1d9cb5;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 3px;
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 3px;
+}
+
+.apps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 3px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+ 
+}
